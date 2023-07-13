@@ -21,6 +21,4 @@ function toggle_menu() {
 MENU.onclick = toggle_menu;
 
 
-fetch(ANI_LIBRIA_URL).then(response => {
-	console.log(response.json());
-});
+fetch(ANI_LIBRIA_URL);
