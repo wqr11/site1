@@ -20,5 +20,6 @@ function toggle_menu() {
 
 MENU.onclick = toggle_menu;
 
-
-fetch(ANI_LIBRIA_URL);
+let response = await fetch(url, {
+	method: 'POST',
+});
