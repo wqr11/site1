@@ -18,8 +18,14 @@ function toggle_menu() {
 	}
 }
 
-MENU.onclick = toggle_menu;
+MENU.onclick = get_response;
 
-let response = await fetch(url, {
-	method: 'POST',
-});
+function get_response() {
+	fetch(url).then(data => {
+		data.json()
+	}).then(item => {
+		console.log(item)
+	})
+}
+
+get_response();
