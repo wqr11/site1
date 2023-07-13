@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Cookie&family=Lexend:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Ruda:wght@400;500;600&family=Tinos:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+}
+
+.navbar {
+	display: flex;
+}
+
+.menu {
+	padding: 18px 30px 0 30px;
+	text-align: center;
+}
+
+.menu-button {
+	all: unset;
+}
+
+.nav-buttons {
+	display: flex;
+	justify-content: left;
+	opacity: 1;
+	transition: all 100ms;
+}
+
+.nav-button {
+	text-decoration: none;
+	color: black;
+	color: #000;
+	font-family: Ruda;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 16px 22px;
+}
+
+.nav-button:hover, #active, .menu:hover{
+	background: linear-gradient(rgba(253, 216, 216, 1), rgba(253, 216, 216, .6));
+}
+
+.menu:hover {
+	cursor: pointer;
+
+}
